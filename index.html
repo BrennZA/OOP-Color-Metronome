@@ -6,8 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Metronome</title>
 </head>
+
 <body>
     <h1>Color Metronome</h1>
+
+    <form id="form">
+        <label for="tempo">Set Your Preferred Tempo:</label>
+        <input type="number" id="tempo" name="tempo" placeholder="120" min="10" max="280">
+
+        <label for="note">Set Your Preferred Note Value:</label>
+        <select name="note" id="note">
+            <option value="1">1</option>
+            <option value="1/2">1/2</option>
+            <option value="1/4">1/4</option>
+            <option value="1/8">1/8</option>
+            <option value="1/16">1/16</option>
+            <option value="1/32">1/32</option>
+            <option value="1/64">1/64</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+
 </body>
 
 </html>
